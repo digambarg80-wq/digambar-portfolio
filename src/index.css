@@ -1,0 +1,32 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-[#0F0F0F];
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#1A1A1A];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#C8A87D]/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#C8A87D]/50;
+}
