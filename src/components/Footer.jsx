@@ -7,10 +7,10 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/digambar', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/digambar', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com/digambar', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:digambar@email.com', label: 'Email' }
+    { icon: Github, href: 'https://github.com/digambarg80-wq', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/digambar-gaikwad-7716153a2/', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://x.com/digambarg80', label: 'Twitter' },
+    { icon: Mail, href: 'mailto:digambarg80@gmail.com', label: 'Email' }
   ];
 
   const quickLinks = [
@@ -79,13 +79,13 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li>India</li>
               <li>
-                <a href="mailto:digambar@email.com" className="hover:text-[#C8A87D] transition-colors">
-                  digambar@email.com
+                <a href="mailto:digambarg80@gmail.com" className="hover:text-[#C8A87D] transition-colors">
+                  digambarg80@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+911234567890" className="hover:text-[#C8A87D] transition-colors">
-                  +91 12345 67890
+                <a href="tel:+919834000290" className="hover:text-[#C8A87D] transition-colors">
+                  +91 98340 00290
                 </a>
               </li>
             </ul>
