@@ -42,7 +42,7 @@ const Contact = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl font-bold mb-12 text-center">
+        <h2 className="text-4xl text-[#C8A87D] font-bold mb-12 text-center">
           Get In <span className="text-[#C8A87D]">Touch</span>
         </h2>
 
@@ -62,7 +62,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center space-x-4 text-gray-300">
                 <Phone className="text-[#C8A87D]" size={20} />
-                <span>+91 12345 67890</span>
+                <span>+91 98340 00290</span>
               </div>
               <div className="flex items-center space-x-4 text-gray-300">
                 <MapPin className="text-[#C8A87D]" size={20} />

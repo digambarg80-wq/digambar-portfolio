@@ -11,7 +11,7 @@ const Testimonials = () => {
       name: "Rajesh Kumar",
       role: "Project Manager, TechCorp",
       content: "Digambar is an exceptional developer who delivered our project ahead of schedule. His attention to detail and problem-solving skills are outstanding. He's a valuable asset to any team.",
-      image: "https://via.placeholder.com/100",
+      image: "https://ui-avatars.com/api/?name=Rajesh+Kumar&background=C8A87D&color=fff&size=100",
       rating: 5
     },
     {
@@ -19,7 +19,7 @@ const Testimonials = () => {
       name: "Priya Sharma",
       role: "CTO, StartupHub",
       content: "Working with Digambar was a great experience. He understands requirements quickly and implements solutions efficiently. His code is clean, well-documented, and maintainable.",
-      image: "https://via.placeholder.com/100",
+      image: "https://ui-avatars.com/api/?name=Rajesh+Kumar&background=C8A87D&color=fff&size=100",
       rating: 5
     },
     {
@@ -27,7 +27,7 @@ const Testimonials = () => {
       name: "Amit Patel",
       role: "Senior Developer, InnovateTech",
       content: "Digambar has a deep understanding of modern web technologies. He's always up to date with the latest trends and best practices. I highly recommend him for any React project.",
-      image: "https://via.placeholder.com/100",
+      image: "https://ui-avatars.com/api/?name=Rajesh+Kumar&background=C8A87D&color=fff&size=100",
       rating: 5
     }
   ];

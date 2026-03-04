@@ -1,21 +1,24 @@
 // src/App.jsx
 import React from 'react';
+import { HelmetProvider } from 'react-helmet-async';
+import SEO from './components/SEO';
+import Navbar from './components/NavbarTemp';
 import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';  // FIXED: capital 'S'
-import Projects from './components/Projects';
-import Experience from './components/Experience';
-import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
-import Navbar from './components/navbar';
-import Footer from './components/Footer';
+import About from './components/About';        // ADD THIS
+import Skills from './components/Skills';      // ADD THIS
+import Projects from './components/Projects';  // ADD THIS
+import Experience from './components/Experience'; // ADD THIS
+import Testimonials from './components/Testimonials'; // ADD THIS
+import Contact from './components/Contact';    // ADD THIS
+import Footer from './components/Footer';      // ADD THIS
 import BackToTop from './components/BackToTop';
 
 function App() {
   return (
-    <div className="bg-dark text-white min-h-screen">
+    <HelmetProvider>
+      <SEO />
       <Navbar />
-      <main className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <main className="w-full">
         <Hero />
         <About />
         <Skills />
@@ -26,7 +29,7 @@ function App() {
       </main>
       <Footer />
       <BackToTop />
-    </div>
+    </HelmetProvider>
   );
 }
 

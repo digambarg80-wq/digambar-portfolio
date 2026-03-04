@@ -30,3 +30,15 @@
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-[#C8A87D]/50;
 }
+
+
+/* In your index.css or App.css */
+:root {
+  --bg-primary: #0F0F0F;  /* Your dark background */
+  --bg-secondary: #1A1A1A; /* Slightly lighter for cards */
+  --accent: #C8A87D;       /* Your gold accent */
+}
+
+body {
+  background-color: #0F0F0F; /* Same dark throughout */
+}
