@@ -33,7 +33,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-20 bg-[#0A0A0A]">
+    <section id="testimonials" className="relative py-20 bg-[#0A0A0A]">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

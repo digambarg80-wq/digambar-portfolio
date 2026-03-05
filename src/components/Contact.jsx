@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="relative py-20">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

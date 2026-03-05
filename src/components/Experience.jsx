@@ -29,7 +29,7 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 text-[#C8A87D]">
+    <section id="experience" className="relative py-20 text-[#C8A87D]">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

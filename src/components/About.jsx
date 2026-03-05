@@ -7,7 +7,7 @@ const About = () => {
   const skills = ['React', 'Node.js', 'JavaScript', 'TypeScript', 'TailwindCSS', 'Firebase'];
 
   return (
-    <section id="about" className="py-20 bg-[#0F0F0F] relative overflow-hidden">
+    <section id="about" className="relative py-20 bg-[#0F0F0F]  overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#C8A87D]/5 via-transparent to-transparent" />
       

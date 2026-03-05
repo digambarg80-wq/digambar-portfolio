@@ -42,3 +42,8 @@
 body {
   background-color: #0F0F0F; /* Same dark throughout */
 }
+
+/* this is used because in console error was showing  --Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.-- this i ensure to udpated all section to relative but still okay*/
+iframe, [data-framer-motion] {
+  position: relative;
+}
