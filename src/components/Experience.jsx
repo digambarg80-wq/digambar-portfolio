@@ -29,14 +29,14 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20">
+    <section id="experience" className="py-20 text-[#C8A87D]">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl font-bold mb-12 text-center">
+        <h2 className="text-4xl text-[#C8A87D] font-bold mb-12 text-center">
           Experience & <span className="text-[#C8A87D]">Education</span>
         </h2>
 

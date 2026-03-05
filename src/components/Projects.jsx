@@ -80,7 +80,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#C8A87D] mb-4">
             Featured <span className="text-[#C8A87D]">Projects</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">

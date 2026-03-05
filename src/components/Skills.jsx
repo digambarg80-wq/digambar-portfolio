@@ -37,7 +37,7 @@ const Skills = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl font-bold mb-12 text-center">
+        <h2 className="text-4xl text-[#C8A87D] font-bold mb-12 text-center">
           Skills & <span className="text-[#C8A87D]">Technologies</span>
         </h2>
         

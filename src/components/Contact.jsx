@@ -49,7 +49,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div>
-            <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
+            <h3 className="text-2xl font-semibold text-[#C8A87D] mb-6">Let's Connect</h3>
             <p className="text-gray-400 mb-8">
               I'm always interested in hearing about new opportunities, 
               collaborations, or just having a chat about technology.
@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-4 text-gray-300">
                 <Mail className="text-[#C8A87D]" size={20} />
-                <span>digambar.gaikwad@email.com</span>
+                <span>digambarg80@gmail.com</span>
               </div>
               <div className="flex items-center space-x-4 text-gray-300">
                 <Phone className="text-[#C8A87D]" size={20} />

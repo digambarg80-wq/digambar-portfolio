@@ -8,7 +8,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Rajesh Kumar",
+      name: "Dnyaneshwar Ingle",
       role: "Project Manager, TechCorp",
       content: "Digambar is an exceptional developer who delivered our project ahead of schedule. His attention to detail and problem-solving skills are outstanding. He's a valuable asset to any team.",
       image: "https://ui-avatars.com/api/?name=Rajesh+Kumar&background=C8A87D&color=fff&size=100",
@@ -24,11 +24,11 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      name: "Amit Patel",
+      name: "Narendra Jadhav",
       role: "Senior Developer, InnovateTech",
       content: "Digambar has a deep understanding of modern web technologies. He's always up to date with the latest trends and best practices. I highly recommend him for any React project.",
       image: "https://ui-avatars.com/api/?name=Rajesh+Kumar&background=C8A87D&color=fff&size=100",
-      rating: 5
+      rating: 3
     }
   ];
 
