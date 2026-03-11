@@ -33,7 +33,7 @@
         description: "Mobile-responsive task manager with real-time updates",
         image: "https://picsum.photos/600/400?random=2",
         technologies: ["React", "Firebase", "TailwindCSS"],
-        category: "frontend",
+        category: "fullstack",
         github: "https://github.com",
         live: "https://example.com"
       },
@@ -43,7 +43,7 @@
         description: "Scalable REST API with authentication and rate limiting",
         image: "https://picsum.photos/600/400?random=3",
         technologies: ["Node.js", "Express", "JWT", "MongoDB"],
-        category: "backend",
+        category: "fullstack",
         github: "https://github.com",
         live: "https://example.com"
       },
@@ -53,7 +53,7 @@
         description: "Modern portfolio with smooth animations and responsive design",
         image: portfolioImg,
         technologies: ["React", "Framer Motion", "TailwindCSS"],
-        category: "frontend",
+        category: "fullstack",
         github: "https://github.com",
         live: "https://example.com"
       },
@@ -63,6 +63,16 @@
         description: "Real-time chat app with rooms and private messaging",
         image: "https://picsum.photos/600/400?random=5",
         technologies: ["React", "Socket.io", "Node.js", "MongoDB"],
+        category: "fullstack",
+        github: "https://github.com",
+        live: "https://example.com"
+      },
+       {
+        id: 6,
+        title: "Vada sambhar chatni",
+        description: "Scalable REST API with authentication and rate limiting",
+        image: "https://picsum.photos/600/400?random=3",
+        technologies: ["Node.js", "Express", "JWT", "MongoDB"],
         category: "fullstack",
         github: "https://github.com",
         live: "https://example.com"

@@ -47,3 +47,39 @@ body {
 iframe, [data-framer-motion] {
   position: relative;
 }
+
+
+
+/* Add to src/index.css */
+
+/* Hide default cursor on desktop */
+@media (min-width: 769px) {
+  * {
+    cursor: none !important;
+  }
+}
+
+/* Custom cursor styles */
+.cursor-dot,
+.cursor-outline {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background: #C8A87D;
+}
+
+.cursor-outline {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #C8A87D;
+}

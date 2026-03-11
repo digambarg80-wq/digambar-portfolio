@@ -1,7 +1,7 @@
 // src/components/Hero.jsx
 import React, { useRef, useEffect, useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { ArrowDown, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Twitter, Download } from 'lucide-react';
 import heroImg from '../assets/images/heroimg.jpeg';
 
 const Hero = () => {
@@ -23,6 +23,16 @@ const Hero = () => {
 
   const textY = useTransform(scrollYProgress, [0, 1], ['0%', isMobile ? '10%' : '30%']);
   const imageY = useTransform(scrollYProgress, [0, 1], ['0%', isMobile ? '5%' : '20%']);
+
+  // Resume download function
+  const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // Place your resume.pdf in public folder
+    link.download = 'Digambar_Gaikwad_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <section 
@@ -146,23 +156,37 @@ const Hero = () => {
                   ))}
                 </div>
                 
-                {/* CTA Button - Full width on mobile */}
-                <motion.a
-                  href="#about"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 text-white bg-[#C8A87D] px-6 sm:px-8 py-3 sm:py-4 rounded-xl hover:bg-[#B89A6D] transition-colors shadow-lg shadow-[#C8A87D]/25 group"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document.querySelector('#about')?.scrollIntoView({ 
-                      behavior: 'smooth',
-                      block: 'start'
-                    });
-                  }}
-                >
-                  <span className="font-medium text-sm sm:text-base">Explore My Work</span>
-                  <ArrowDown size={16} className="group-hover:translate-y-1 transition-transform" />
-                </motion.a>
+                {/* Buttons Container */}
+                <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                  {/* Explore Work Button */}
+                  <motion.a
+                    href="#about"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 text-white bg-[#C8A87D] px-6 sm:px-8 py-3 sm:py-4 rounded-xl hover:bg-[#B89A6D] transition-colors shadow-lg shadow-[#C8A87D]/25 group"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.querySelector('#about')?.scrollIntoView({ 
+                        behavior: 'smooth',
+                        block: 'start'
+                      });
+                    }}
+                  >
+                    <span className="font-medium text-sm sm:text-base">Explore My Work</span>
+                    <ArrowDown size={16} className="group-hover:translate-y-1 transition-transform" />
+                  </motion.a>
+
+                  {/* Resume Download Button - NEW */}
+                  <motion.button
+                    onClick={handleDownloadResume}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 text-[#C8A87D] bg-transparent border-2 border-[#C8A87D] px-6 sm:px-8 py-3 sm:py-4 rounded-xl hover:bg-[#C8A87D]/10 transition-colors group"
+                  >
+                    <span className="font-medium text-sm sm:text-base">Resume</span>
+                    <Download size={16} className="group-hover:translate-y-1 transition-transform" />
+                  </motion.button>
+                </div>
               </motion.div>
             </motion.div>
           </div>
