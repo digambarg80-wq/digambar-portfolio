@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { User, Code, Briefcase, Mail } from 'lucide-react';
 
 const About = () => {
-  const skills = ['React', 'Node.js', 'JavaScript', 'TypeScript', 'TailwindCSS', 'Firebase'];
+  const skills = ['React', 'Node.js', 'JavaScript',  'TailwindCSS', 'Firebase'];
 
   return (
     <section id="about" className="relative py-20 bg-[#0F0F0F]  overflow-hidden">
@@ -83,8 +83,8 @@ const About = () => {
           >
             {[
               { icon: Briefcase, label: 'Projects', value: '15+' },
-              { icon: Code, label: 'Commits', value: '1k+' },
-              { icon: User, label: 'Clients', value: '10+' },
+              { icon: Code, label: 'Commits', value: '500+' },
+              { icon: User, label: 'Clients', value: '4+' },
               { icon: Mail, label: 'Support', value: '24/7' }
             ].map((stat, index) => (
               <motion.div

@@ -16,19 +16,27 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      name: "Priya Sharma",
-      role: "CTO, StartupHub",
+      name: "Abhishek Chavan",
+      role: "",
       content: "Working with Digambar was a great experience. He understands requirements quickly and implements solutions efficiently. His code is clean, well-documented, and maintainable.",
       image: "https://ui-avatars.com/api/?name=Rajesh+Kumar&background=C8A87D&color=fff&size=100",
       rating: 5
     },
     {
       id: 3,
-      name: "Narendra Jadhav",
+      name: "Pranav Gawali",
       role: "Senior Developer, InnovateTech",
       content: "Digambar has a deep understanding of modern web technologies. He's always up to date with the latest trends and best practices. I highly recommend him for any React project.",
       image: "https://ui-avatars.com/api/?name=Rajesh+Kumar&background=C8A87D&color=fff&size=100",
       rating: 3
+    },
+    {
+      id: 4,
+      name: "Pratik Sonawane",
+      role:"",
+      content:"Working on portfolio project",
+      imgae:"https://ui-avatars.com/api/?name=Rajesh+Kumar&background=C8A87D&color=fff&size=100",
+      rating: 3 
     }
   ];
 
@@ -42,7 +50,7 @@ const Testimonials = () => {
         className="container mx-auto px-4 sm:px-6 lg:px-8"
       >
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-4xl text-[#C8A87D] font-bold mb-4">
             Client <span className="text-[#C8A87D]">Testimonials</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">

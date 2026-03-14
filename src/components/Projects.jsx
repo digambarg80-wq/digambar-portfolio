@@ -5,7 +5,8 @@
 
   //Importing images 
   import portfolioImg from "../assets/images/portfolio.png"
-
+  import MauliImg from "../assets/images/Mauli.jpeg"
+  import malefashion from "../assets/images/malefashion.jpeg"
   const Projects = () => {
     const [filter, setFilter] = useState('all');
 
@@ -19,13 +20,13 @@
     const projects = [
       {
         id: 1,
-        title: "E-Commerce Platform",
-        description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
-        image: "https://picsum.photos/600/400?random=1",
-        technologies: ["React", "Node.js", "MongoDB", "TailwindCSS"],
+        title: "Mauli-Home-Interior E-Commerce Website",
+        description: "A full-stack e-commerce.",
+        image: MauliImg,
+        technologies: ["React", "firebase", "TailwindCSS","Razorpay"],
         category: "fullstack",
-        github: "https://github.com",
-        live: "https://example.com"
+        github: "https://github.com/digambarg80-wq/my-react-app",
+        live: "https://mauli-home-interior.netlify.app/"
       },
       {
         id: 2,
@@ -34,49 +35,40 @@
         image: "https://picsum.photos/600/400?random=2",
         technologies: ["React", "Firebase", "TailwindCSS"],
         category: "fullstack",
-        github: "https://github.com",
-        live: "https://example.com"
+        github: "https://github.com/digambarg80-wq",
+        live: ""
       },
       {
         id: 3,
-        title: "REST API Service",
+        title: "Multi-Vendor-MarketPlace E-Commerce",
         description: "Scalable REST API with authentication and rate limiting",
         image: "https://picsum.photos/600/400?random=3",
-        technologies: ["Node.js", "Express", "JWT", "MongoDB"],
+        technologies: ["React","TailwindCSS","Node.js", "Express", "JWT", "MongoDB"],
         category: "fullstack",
-        github: "https://github.com",
-        live: "https://example.com"
+        github: "https://github.com/digambarg80-wq/multi-vendor-marketplace",
+        live: "https://multi-vendor-market.netlify.app/"
       },
       {
         id: 4,
         title: "Portfolio Website",
         description: "Modern portfolio with smooth animations and responsive design",
         image: portfolioImg,
-        technologies: ["React", "Framer Motion", "TailwindCSS"],
+        technologies: ["React", "Framer Motion", "TailwindCSS","firebase"],
         category: "fullstack",
-        github: "https://github.com",
-        live: "https://example.com"
+        github: "https://github.com/digambarg80-wq/digambar-portfolio",
+        live: "https://digambar-portfolios.netlify.app/"
       },
       {
         id: 5,
-        title: "Chat Application",
-        description: "Real-time chat app with rooms and private messaging",
-        image: "https://picsum.photos/600/400?random=5",
-        technologies: ["React", "Socket.io", "Node.js", "MongoDB"],
+        title: "male-fashion-store",
+        description: "A premier male fashion destination offering a curated selection of contemporary, high-quality menswear",
+        image: malefashion,
+        technologies: ["PHP"],
         category: "fullstack",
-        github: "https://github.com",
-        live: "https://example.com"
-      },
-       {
-        id: 6,
-        title: "Vada sambhar chatni",
-        description: "Scalable REST API with authentication and rate limiting",
-        image: "https://picsum.photos/600/400?random=3",
-        technologies: ["Node.js", "Express", "JWT", "MongoDB"],
-        category: "fullstack",
-        github: "https://github.com",
-        live: "https://example.com"
-      }
+        github: "https://github.com/digambarg80-wq/male-fashion-store",
+        live: ""
+    }
+
     ];
 
     const filteredProjects = filter === 'all' 
